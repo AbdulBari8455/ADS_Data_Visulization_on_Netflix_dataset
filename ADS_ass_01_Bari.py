@@ -133,7 +133,7 @@ def data_for_lineplot(dataframe):
     color = ['red', 'green', 'blue', 'lightblue', 'black', 'brown']
     x_label = 'Years'
     y_label = 'Average IMDB Rating'
-    titel = 'Variation In IMDB Rating For Geners From 2000 to 2020'
+    titel = 'Variation In IMDB Rating For Genres From 2000 to 2020'
     lineplot(x_values_list, y_values_list, x_label, y_label,
              titel, color, labels)
 
@@ -168,7 +168,7 @@ def data_for_barplot(dataframe):
     ylabel = 'Total Shows'
     color = ['red', 'green', 'blue', 'lightblue', 'black', 'brown']
     title = "Comparision Between Sum of Tv-shows and Movies with Respect"\
-         " to Gener"
+         " to Genre"
     barplot(catagories, type_movie, xlabel, ylabel, title, labels, color)
 
 
