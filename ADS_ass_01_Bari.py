@@ -167,8 +167,8 @@ def data_for_barplot(dataframe):
     xlabel = 'Gener'
     ylabel = 'Total Shows'
     color = ['red', 'green', 'blue', 'lightblue', 'black', 'brown']
-    title = 'Comparision Between Sum of Tv-shows and Movies with Respect"\
-         " to Gener'
+    title = "Comparision Between Sum of Tv-shows and Movies with Respect"\
+         " to Gener"
     barplot(catagories, type_movie, xlabel, ylabel, title, labels, color)
 
 
@@ -185,8 +185,8 @@ def get_data_for_scatter_plot(dataframe):
     imdb_type_show_score_ = imdb_type_show_score['imdb_score'][:1000]
 
     labels = ['MOVIE', 'SHOW']
-    title = 'Distribution of IMDB Rating of TV-Shows and Movies with respect"\
-         " to tmdb_score'
+    title = "Distribution of IMDB Rating of TV-Shows and Movies with respect"\
+         " to tmdb_score"
     x_label = 'imdb_score'
     y_label = 'tmdb show score'
     scatter_plot([imdb_type_movie_score_,
